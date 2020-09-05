@@ -86,7 +86,7 @@ public ActionResult Callback(int orderId)
 ```
 
 ### Migration to production environment
-When the solution is ready to be used in production environment make sure to change the setting [`PortalUrl`](HalkbankSettings.PortalUrl).
+When the solution is ready to be used in production environment make sure to change the setting [`PortalUrl`](https://github.com/vgichar/PaymentGateway.Halkbank.MK/blob/master/Halkbank.MK/HalkbankSettings.cs).
 
 # Questions, bug reports or feature requests?
 Do you have feature request or would you like to report a bug? Please post them on the [issue list](https://github.com/vgichar/PaymentGateway.Halkbank.MK/issues).
