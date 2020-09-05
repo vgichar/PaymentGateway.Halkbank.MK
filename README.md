@@ -13,6 +13,8 @@ In order to use this library you must have:
 
 # Getting started
 
+Install the [Halkbank.mk](https://www.nuget.org/packages/Halkbank.mk) nuget
+
 Checkout the [sample web project](https://github.com/vgichar/PaymentGateway.Halkbank.MK/tree/master/Halkbank.MK.ExampleWeb) as a full integration example for online payments with Halkbank.
 
 ---
