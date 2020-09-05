@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1231
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Halkbank.MK", "Halkbank.MK\Halkbank.MK.csproj", "{9CA70804-E20E-48ED-9798-DFDB1A92A752}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Halkbank.MK.ExampleWeb", "Halkbank.MK.ExampleWeb\Halkbank.MK.ExampleWeb.csproj", "{FEBF93E5-9721-4036-82A0-EABEB67556A9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9CA70804-E20E-48ED-9798-DFDB1A92A752}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CA70804-E20E-48ED-9798-DFDB1A92A752}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CA70804-E20E-48ED-9798-DFDB1A92A752}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CA70804-E20E-48ED-9798-DFDB1A92A752}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEBF93E5-9721-4036-82A0-EABEB67556A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEBF93E5-9721-4036-82A0-EABEB67556A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEBF93E5-9721-4036-82A0-EABEB67556A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEBF93E5-9721-4036-82A0-EABEB67556A9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {17D4177B-9AA5-4F37-B60F-B143EC9A134A}
+	EndGlobalSection
+EndGlobal

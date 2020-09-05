@@ -1,0 +1,6 @@
+﻿@model Halkbank.MK.HalkbankPaymentRequest
+@{
+    ViewData["Title"] = "Checkout";
+}
+
+@Html.Raw(Model.ToHtmlForm(@"<button type='submit'>Pay now</button>"))
