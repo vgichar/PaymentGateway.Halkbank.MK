@@ -27,11 +27,9 @@ Make sure to get the order amount and id from the customer checkout.
 public ActionResult Checkout(int orderId)
 {
     // halkbank provided credentials
-    string storeKey = "123";
-    string clientId = "123";
-    
-    // change to false when migrating to production environment
-    bool isSandbox = true;
+    string storeKey = "halkbank provided key";
+    string clientId = "halkbank provided client id";
+    string portalUrl = "https://halkbank.provided.portal.com/";
 
     var settings = new HalkbankSettings(clientId, storeKey, isSandbox);
     var request = new HalkbankPaymentRequest(settings);
@@ -69,11 +67,9 @@ This callback request should be processed using the [`HalkbankPaymentResponse`](
 public ActionResult Callback(int orderId)
 {
     // halkbank provided credentials
-    string storeKey = "123";
-    string clientId = "123";
-    
-    // change to false when migrating to production environment
-    bool isSandbox = true;
+    string storeKey = "halkbank provided key";
+    string clientId = "halkbank provided client id";
+    string portalUrl = "https://halkbank.provided.portal.com/";
 
     var body = new StreamReader(Request.Body).ReadToEnd();
 
@@ -90,7 +86,7 @@ public ActionResult Callback(int orderId)
 ```
 
 ### Migration to production environment
-When the solution is ready to be used in production environment make sure to check the setting [`IsSandbox`](HalkbankSettings.IsSandbox) to `false`.
+When the solution is ready to be used in production environment make sure to change the setting [`PortalUrl`](HalkbankSettings.PortalUrl).
 
 # Questions, bug reports or feature requests?
 Do you have feature request or would you like to report a bug? Please post them on the [issue list](https://github.com/vgichar/PaymentGateway.Halkbank.MK/issues).
