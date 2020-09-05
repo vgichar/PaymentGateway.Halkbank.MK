@@ -9,6 +9,7 @@ namespace Halkbank.MK.ExampleWeb.Controllers
         [HttpGet]
         public ActionResult Checkout(int orderId)
         {
+            // halkbank provided credentials
             string storeKey = "halkbank provided key";
             string clientId = "halkbank provided client id";
             string portalUrl = "https://halkbank.provided.portal.com/";
@@ -40,6 +41,7 @@ namespace Halkbank.MK.ExampleWeb.Controllers
         [HttpPost]
         public ActionResult Callback(int orderId)
         {
+            // halkbank provided credentials
             string storeKey = "halkbank provided key";
             string clientId = "halkbank provided client id";
             string portalUrl = "https://halkbank.provided.portal.com/";
